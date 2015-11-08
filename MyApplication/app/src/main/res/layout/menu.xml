@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+        <!-- "Mark Favorite", should appear as action button if possible -->
+        <item
+            android:id="@+id/home"
+            android:icon="@*android:drawable/ic_menu_home"
+            android:title="@string/home"
+            android:showAsAction="ifRoom"/>
+        <item
+            android:id="@+id/refresh"
+            android:icon="@android:drawable/ic_menu_rotate"
+            android:title="@string/home"
+            android:showAsAction="ifRoom"/>
+
+    </menu>
+</LinearLayout>
